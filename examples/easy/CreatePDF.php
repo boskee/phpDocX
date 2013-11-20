@@ -13,8 +13,8 @@
  * @link       http://www.phpdocx.com
  * @since      File available since Release 3.0
  */
-require_once '../../classes/TransformDoc.inc';
-require_once '../../classes/CreateDocx.inc';
+require_once '../../classes/TransformDoc.php';
+require_once '../../classes/CreateDocx.php';
 
 $docx = new CreateDocx();
 
