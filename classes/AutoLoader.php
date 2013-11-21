@@ -40,7 +40,7 @@ class AutoLoader
      */
     public static function autoloadDompdf($className)
     {
-        $pathDompdf = dirname(__FILE__) . '/../pdf/dompdf_config.inc.php';
+        $pathDompdf = dirname(__FILE__) . '/../pdf/dompdf_config.php.php';
         if (file_exists($pathDompdf)) {
             require_once $pathDompdf;
         }
@@ -54,7 +54,7 @@ class AutoLoader
      */
     public static function autoloadGenericClasses($className)
     {
-        $pathPhpdocx = dirname(__FILE__) . '/' . $className . '.inc';
+        $pathPhpdocx = dirname(__FILE__) . '/' . $className . '.php';
         if (file_exists($pathPhpdocx)) {
             require_once $pathPhpdocx;
         }
@@ -98,7 +98,7 @@ class AutoLoader
      */
     public static function autoloadPdf($className)
     {
-        $pathPDF = dirname(__FILE__) . '/pdf/' . $className . '.inc';
+        $pathPDF = dirname(__FILE__) . '/pdf/' . $className . '.php';
         if (file_exists($pathPDF)) {
             require_once $pathPDF;
         }
@@ -120,7 +120,7 @@ class AutoLoader
      */
     public static function autoloadPhpdocx($className)
     {
-        $pathPhpdocx = dirname(__FILE__) . '/docx/' . $className . '.inc';
+        $pathPhpdocx = dirname(__FILE__) . '/docx/' . $className . '.php';
         if (file_exists($pathPhpdocx)) {
             require_once $pathPhpdocx;
         }

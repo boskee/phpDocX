@@ -12,7 +12,7 @@
  * @link       http://www.phpdocx.com
  * @since      File available since Release 3.0
  */
-include_once dirname(__FILE__) . '/CreateElement.inc';
+include_once dirname(__FILE__) . '/CreateElement.php';
 
 class CreateFontTable extends CreateElement
 {

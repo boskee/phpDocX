@@ -14,9 +14,9 @@
  */
 
 error_reporting(E_ALL & ~E_STRICT & ~E_NOTICE);
-require_once dirname(__FILE__) . '/AutoLoader.inc';
+require_once dirname(__FILE__) . '/AutoLoader.php';
 AutoLoader::load();
-require_once dirname(__FILE__) . '/Phpdocx_config.inc';
+require_once dirname(__FILE__) . '/Phpdocx_config.php';
 
 class CreateDocx extends CreateDocument
 {

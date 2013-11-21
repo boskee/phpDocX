@@ -15,7 +15,7 @@
 
 error_reporting(E_ALL & ~E_NOTICE);
 
-require_once dirname(__FILE__) . '/AutoLoader.inc';
+require_once dirname(__FILE__) . '/AutoLoader.php';
 AutoLoader::load();
 
 class TransformDoc
